@@ -58,28 +58,25 @@
 		</div>
 	</header>
 	<main class="contaier-fluid d-flex flex-column justify-content-center sg-main">
-		<section class="contaier-fluid sg-section">
-			<div class="row no-gutters">
-				<div class="col">
-					<div class="container-xl">
-						<div class="row">
-							<div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-								<h1 class="sg-h1">
-									Telegram Чат-Бот:<br/>
-									<span style="color: gray;">для контролю якості повітря</span>
-								</h1>							
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex flex-column align-items-start">
-								<p>
-									За допомогою Air Quality Bot, можна з легкістю відслідковувати якість повітря у будь-якому місті.
-								</p>
-								<a class="sg-button" href="https://t.me/AirQualityControlBot" target="_blank" rel="noreferrer"><span>Розпочати<span></a>	
-							</div>
-						</div>
+		<section class="container-xl sg-section sg-landing">
+			<div class="container-xl sg-landing-content">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+						<h1 class="sg-h1">
+							Telegram Чат-Бот:<br/>
+							<span style="color: gray;">для контролю якості повітря</span>
+						</h1>							
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex flex-column align-items-start">
+						<p>
+							За допомогою Air Quality Bot, можна з легкістю відслідковувати якість повітря у будь-якому місті.
+						</p>
+						<a class="sg-button" href="https://t.me/AirQualityControlBot" target="_blank" rel="noreferrer"><span>Розпочати<span></a>	
+					</div>
+				</div>
+				<div class="row d-none d-lg-block d-xl-block sg-landing-placeholder"></div>
 			</div>
 		</section>
 		<section class="container-xl sg-section">
@@ -144,8 +141,26 @@
 		</section>
 		<section class="container-xl sg-section">
 			<div class="row">
+				<div class="col d-flex justify-content-center">
+					<h2 class="sg-h2">Залиште відгук - зробіть нас краще</h2>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<img src="../image/social_girl.svg" style="width: 100%"/>
+					<img src="../image/social_girl.png" style="width: 100%"/>
+				</div>
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
+					<form class="d-flex flex-column align-items-end">
+					  <div class="form-group">
+						<label for="exampleInputEmail1">Ім'я</label>
+						<input type="email" class="form-control sg-inputbox" id="exampleInputEmail1" aria-describedby="emailHelp">
+					  </div>
+					  <div class="form-group">
+						<label for="exampleFormControlTextarea1">Залиште відгук</label>
+						<textarea class="form-control sg-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+					  <button type="submit" class="sg-button">Submit</button>
+					</form>
 				</div>
 			</div>
 		</section>
