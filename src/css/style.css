@@ -90,16 +90,19 @@ a.sg-button:hover {
 	padding: 1em;
 	border-radius: 25px;
 	min-height: 200px;
+	height: 300px;
 	width: 99%;
 	margin-bottom: 2em;
 	box-shadow: 0 0px 10px 0px lightgray;
 }
 .sg-tile-content {
 	width: 100%;
-	margin-top: 1em;
 }
 .sg-tile-text {
 	text-align: center;
+}
+.sg-image-tile {
+	padding: 2em;
 }
 .sg-button {
 	background-color: transparent;
@@ -159,7 +162,6 @@ a.sg-button:hover {
 }
 ::-webkit-scrollbar-thumb {
   background: gray;
-  border-radius: 10px;
 }
 
 .form-group {
