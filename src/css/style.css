@@ -29,6 +29,7 @@ a.sg-button:hover {
 .sg-h5 {
 	font-family: Segoe UI;
 	text-align: center;
+	color: black;
 }
 .sg-header {
 	width: 100%;
@@ -166,4 +167,8 @@ a.sg-button:hover {
 
 .form-group {
 	width: 100%;
+}
+#speaker_image_div img {
+	display : block;
+    margin : auto;
 }
