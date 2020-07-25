@@ -172,3 +172,7 @@ a.sg-button:hover {
 	display : block;
     margin : auto;
 }
+#clip_image_div{
+	margin-top: -70px;
+	text-align: right;
+}
